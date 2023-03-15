@@ -1,0 +1,67 @@
+.flexcard {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    width: 220px;
+    border-radius: 5px;
+    border: 5px solid black;
+    cursor: pointer;
+    position: relative;
+    background: white;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.flexcard img {
+    margin-top: 10px;
+    width: 180px;
+    height: 180px;
+}
+
+.flexcard h2{
+    transition: 0.3s ease-in-out;
+}
+
+
+
+.flexcard h2:hover {
+    color: rgb(83, 130, 146);
+}
+
+.flex-over {
+    color: black;
+    background-color: white;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    box-shadow: 0 -3px 5px rgba(0,0,0, 0.1);
+    position: absolute;
+    padding: 0.6rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: translateY(100%);
+    transition: 0.3s ease-in-out;
+    overflow: hidden;
+    max-height: 100%;
+    background: orange;
+    visibility: hidden;
+}
+
+.flexcard:hover .flex-over{
+    transform: translateY(0);
+    visibility: visible;
+}
+
+.flex-over span {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+
+
+
+
