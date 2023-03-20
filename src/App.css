@@ -6,15 +6,35 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.navbar {
+.navbar-header {
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    height: 75px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 1000;
+}
+
+.navbar {
     background: rgb(83, 130, 146);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-    
+    height: 50px;
+}
+
+.line {
+    width: 100%;
+    height: 3px;
+    background: white;
+}
+
+
+.navbar .logo {
+    color: white;
 }
 
 .navbar .menu {
@@ -29,9 +49,43 @@
     cursor: pointer;
     transition: 0.3s ease-in-out;
     color: white;
+    font-size: 13px;
 }
 
 .navbar .menu li:hover {
-    color: black;
+    color: yellow;
 }
+
+.navbar .menu .login {
+    background: white;
+    border-radius: 15px;
+    padding: 5px 15px;
+    transition: 0.3s ease-in-out;
+    color: black;
+    border: 2px solid black;
+    font-size: 16px;
+}
+
+.navbar .menu .login:hover{
+    border: 2px solid white ;
+    color: rgb(83, 130, 146);
+}
+
+.navbar .menu .login:active {
+    border: 2px solid rgb(83, 130, 146);
+    color: rgb(83, 130, 146);
+}
+
+.navbar .menu .news {
+    color: yellow;
+    transition: 0.3s ease-in-out;
+    font-size: 14px;
+    text-decoration:underline;
+    letter-spacing: 1px;
+}
+
+.navbar .menu .news:hover {
+    color: white;
+}
+
 

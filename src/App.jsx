@@ -1,23 +1,22 @@
-
-import './App.css'
 import { useState } from 'react'
-
+import './App.css'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Text from './components/Text'
 import Cards from './components/Cards'
+import FormLogin from './components/pages/FormLogin'
+import Footer from './components/Footer'
 
 function App() {
-  
-
   return (
-    <div className="App">
+    <div >
       <Navbar />
       <Hero />
       <Text />
-      <Cards />
+      <Cards/>
+      <FormLogin />
+      <Footer />
     </div>
   )
 }
-
 export default App

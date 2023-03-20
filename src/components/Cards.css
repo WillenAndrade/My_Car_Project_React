@@ -1,7 +1,16 @@
-.cards {
+.cards{
+    min-width: 100%;
+    min-height: 100vh;
+    margin: 100px 0;
+}
+.cars-title {
+    text-align: center;
+    margin: 30px;
+    font-size: 30px;
+}
+.cars {
     display: flex;
     max-width: 80%;
-    height: 100vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

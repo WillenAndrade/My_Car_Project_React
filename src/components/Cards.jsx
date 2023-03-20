@@ -1,7 +1,7 @@
 import React from 'react'
 import '../components/Cards.css'
 import FlexCard from '../components/FlexCard'
-import '../components/FlexCard.css'
+
 
 import Car1 from '../imgs/car1.avif'
 import Car2 from '../imgs/car2.avif'
@@ -44,6 +44,8 @@ const Cards = () => {
 
     return (
     <div className="cards">
+      <h2 className='cars-title'>Sport Cars</h2>
+      <div className="cars">
       <FlexCard potence={Porche.potence}description={Porche.info}title="Porche" className="flexcard" src={Car1}/>
       <FlexCard potence={BMW.potence}description={BMW.info} title="BMW" className="flexcard" src={Car2}/>
       <FlexCard potence={Mustang.potence} description={Mustang.info} title="Mustang" className="flexcard" src={Car3}/>
@@ -56,9 +58,9 @@ const Cards = () => {
       <FlexCard potence={BMW.potence}description={BMW.info} title="BMW" className="flexcard" src={Car2}/>
       <FlexCard potence={Mustang.potence} description={Mustang.info} title="Mustang" className="flexcard" src={Car3}/>
       <FlexCard potence={Sport.potence} description={Sport.info} title="Sport" className="flexcard" src={Car4}/>
-      
-      
-    </div> 
+    </div>
+    </div>
+    
     )
 }
 

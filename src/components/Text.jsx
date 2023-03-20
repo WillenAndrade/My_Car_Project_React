@@ -1,7 +1,6 @@
 import React from 'react'
 import '../components/Text.css'
 
-
 const Text = () => {
 
     return (
@@ -9,8 +8,11 @@ const Text = () => {
             <div className="text">
                 <h2>O que são os carros esportivos?</h2>
                 <p>Para começar, é preciso entender o conceito de um carro esportivo.
-                     Na prática, este é um veículo com o foco em um desempenho dinâmico para o motorista, pensando, por exemplo, em questões como a aceleração, a velocidade máxima ou mesmo na liberdade para dirigir. 
-                     A sua produção é bastante relacionada ao mercado europeu, especialmente nos anos 1900, mas esse cenário mudou.
+                     Na prática, este é um veículo com o foco em um desempenho dinâmico para o motorista,
+                      pensando, por exemplo, em questões como a aceleração, 
+                      a velocidade máxima ou mesmo na liberdade para dirigir. 
+                     A sua produção é bastante relacionada ao mercado europeu, 
+                     especialmente nos anos 1900, mas esse cenário mudou.
 Além disso, não existem definições específicas sobre o que é um carro esportivo. </p><br/>
 
 <p>

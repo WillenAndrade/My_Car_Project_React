@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Poppins:wght@200;400;600&display=swap');
+
+.section {
+    margin: 20px 0;
+    background: rgb(83, 130, 146);
+    min-width: 100%;
+    min-height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    overflow: hidden;
+    width: 400px;
+    max-width: 100%;
+    border: 2px solid black;
+}
+.header {
+    background-color: white;
+    border-bottom: 1px solid gray;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.header h2 {
+    margin: 0;
+}
+
+.form {
+    padding: 30px 40px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form-control input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+}
+
+.form button {
+    background-color:rgb(2, 16, 19);
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    display: block;
+    font-family: inherit;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+.form button:hover {
+    border: 2px solid rgb(2, 16, 19);
+    color: rgb(83, 130, 146);
+}
+
+
