@@ -19,7 +19,7 @@ const FormLogin = () => {
        <section className="section">
         <div className="container">
          <div className="header">
-            <h2>Create Account</h2></div>
+            <h2>CRIAR CONTA</h2></div>
             <form onSubmit={handleSubmit} className="form" id="form">
                 <div className="form-control">
                     <label>Username</label>
@@ -32,16 +32,16 @@ const FormLogin = () => {
                     
                 </div>
                 <div className="form-control">
-                    <label>Password</label>
+                    <label>SENHA</label>
                     <input type="text" placeholder="Digite sua senha" id="password"></input>
                     
                 </div>
                 <div className="form-control">
-                    <label>Confirm password</label>
+                    <label>CONFIRMAR SENHA</label>
                     <input type="text" placeholder="Digite sua senha" id="passwordtwo"></input>
                     {/*<small>Error message</small>*/}
                 </div>
-                <button>SUBMIT</button>
+                <button>ENVIAR</button>
             
             </form>
          
