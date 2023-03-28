@@ -11,10 +11,7 @@ const Navbar = () => {
                 <li><a>HOME</a></li>
                 <li><a>ABOUT</a></li>
                 <li><a>CONTACTS</a></li>
-
                 <li><a className='news'>NEWSLETTER</a></li>
-                
-                
             </ul>
            </div>
            <div className="line"></div>
