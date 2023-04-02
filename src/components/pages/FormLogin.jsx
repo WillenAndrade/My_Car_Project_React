@@ -1,20 +1,15 @@
 import { useState, useEffect } from 'react'
 import './FormLogin.css'
 
-
-
-
 const FormLogin = () => {
     const [userName, setUsername] = useState("")
     const [errorFor, setErrorFor] = useState()
-
 
     const handleSubmit = (e) => {
     e.preventDefault()
     window.alert(`Dados do ${message}`)
 }
     
-
     return (
        <section className="section">
         <div className="container">
@@ -24,7 +19,6 @@ const FormLogin = () => {
                 <div className="form-control">
                     <label>Username</label>
                     <input  onChange={(e)=> setUsername(e.target.value)} type="text" placeholder="Digite seu username" id="nome"></input>
-                    {/*userName.length == 0  && <small>Preencha este campo</small>*/}
                 </div>
                 <div className="form-control">
                     <label>Email</label>
@@ -34,17 +28,13 @@ const FormLogin = () => {
                 <div className="form-control">
                     <label>SENHA</label>
                     <input type="text" placeholder="Digite sua senha" id="password"></input>
-                    
                 </div>
                 <div className="form-control">
                     <label>CONFIRMAR SENHA</label>
                     <input type="text" placeholder="Digite sua senha" id="passwordtwo"></input>
-                    {/*<small>Error message</small>*/}
                 </div>
                 <button>ENVIAR</button>
-            
             </form>
-         
          </div>
        </section>
        
