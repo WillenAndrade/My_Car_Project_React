@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 1000;
+}
+
+.navbar {
+    background: rgb(83, 130, 146);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 50px;
+}
+
+.line {
+    width: 100%;
+    height: 3px;
+    background: white;
+}
+
+
+.navbar .logo {
+    color: white;
+}
+
+.navbar .menu {
+    display: flex;
+}
+
+.navbar .menu li {
+    list-style: none;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    color: white;
+    font-size: 1rem;
+}
+
+.navbar .menu li:hover {
+    color: yellow;
+}
+
+.navbar .menu .login {
+    background: white;
+    border-radius: 15px;
+    padding: 5px 15px;
+    transition: 0.3s ease-in-out;
+    color: black;
+    border: 2px solid black;
+    font-size: 1rem;
+}
+
+.navbar .menu .login:hover{
+    border: 2px solid white ;
+    color: rgb(83, 130, 146);
+}
+
+.navbar .menu .login:active {
+    border: 2px solid rgb(83, 130, 146);
+    color: rgb(83, 130, 146);
+}
+
+.navbar .menu .news {
+    color: yellow;
+    transition: 0.3s ease-in-out;
+    font-size: 1rem;
+    text-decoration:underline;
+    letter-spacing: 1px;
+}
+
+.navbar .menu .news:hover {
+    color: white;
+}
+
+ .MobileNavigation {
+    display: none;
+}
+
+@media (max-width: 990px) {
+    .Navigation {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+    .MobileNavigation {
+        display: flex;
+        align-items: center;
+        background: green;
+    }
+    .MobileNavigation .Hamburger {
+        position: absolute;
+        right: 50%;
+        transform: translateX(50%);
+        cursor: pointer;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 53px;
+        right: 0;
+        width: 100%;
+        background: rgb(83, 130, 146);
+    }
+
+    .navbar .menu .login {
+        color: white;
+        padding-left: 15%;
+        border-radius: 0px;
+        border: none;
+        background: none;
+        font-size: 1rem;
+    }
+
+    .navbar .menu .login:hover {
+        border: none;
+        color: yellow;
+    }
+
+
+    .navbar .menu .news {
+        color: white;
+        transition: 0.3s ease-in-out;
+        font-size: 1rem;
+        text-decoration:underline;
+        letter-spacing: 0px;
+        text-decoration: none;
+    }
+    
+    .navbar .menu .news:hover {
+        color: yellow;
+    }
+
+
+   nav ul li a{
+        padding-left: 15%;
+    }
+
+    .menu {
+        opacity: 1;
+    }
+}
+
+
+
+
