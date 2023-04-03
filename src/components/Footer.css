@@ -1,4 +1,4 @@
-footer {
+.footer-top {
     width: 100%;
     height: 65px;
     background: orange;
@@ -28,5 +28,27 @@ footer a {
 
 footer a:hover{
     color: white;
+}
+
+.footer-container {
+    width: 100%;
+    height: 65px;
+    background: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding-top: 20px;
+}
+
+.footer-container .linkedin {
+    padding: 10px;
+    color: #0a66c2;
+    cursor: pointer;
+}
+.footer-container .github{
+    padding: 10px;
+    color: purple;
+    cursor: pointer;
 }
 
