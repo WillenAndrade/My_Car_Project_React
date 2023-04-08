@@ -1,14 +1,14 @@
 import {useState} from 'react'
 import Newinfo from './Events/NewInfo'
 import '../components/FlexCard.css'
-const FlexCard = ({src, title, description, potence}) => {
+const FlexCard = ({car}) => {
    
     return(
         <div className="flexcard">
-            <img src={src}></img>
-            <h2>{title}</h2>
+            {<img src={car.src}></img>}
+            <h2>{car.title}</h2>
             <div className="flex-over">
-                <p>{description}<span>{potence}</span></p>
+                <p>{car.info}<span>{car.potence}</span></p>
             </div>      
        </div>
 
