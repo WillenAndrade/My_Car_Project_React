@@ -27,7 +27,7 @@ const cars = [{
   src: Car3
 }, {
   title: "Sport",
-  id: 3,
+  id: 4,
   info: "O tipo de tração e a disposição do motor influenciam significativamente as características de controle de um automóvel, e são de importância crucial no projeto de um carro esportivo.",
   potence: "408hp - 761hp",
   src: Car4

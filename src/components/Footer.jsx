@@ -14,7 +14,7 @@ const Footer = () => {
               <a href="https://github.com/WillenAndrade" target='_blank'><BsGithub size={32}/></a>
             </div>
          </div>
-         <div className="footer-top">
+         <div className="footer-bottom">
             <h2>Site criado por Willen Andrade &copy;</h2>
          </div>
       </footer>
